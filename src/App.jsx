@@ -32,7 +32,7 @@ function App() {
           
           <nav>
             <hr className='text-white  mt-5 h-2 mb-5'/>
-            <div className='flex flex-row gap-2'><img src={home}/><p className='text-white'>Home</p></div>
+            <div className='flex flex-row gap-2'><img src={home}/><p className='text-white font-nunito'>Home</p></div>
             <div className='flex flex-row gap-2 rounded-lg w-[14rem] bg-[#192749] -ml-3 p-3 mt-4'><img src={category} className='ml-0'/><p className='text-white'>Analytic Dashboard</p></div>
             <hr className='text-white  mt-5 h-2 mb-5'/>
             <ul>
@@ -40,7 +40,7 @@ function App() {
                 <div className='w-full flex flex-row justify-between pt-3 pb-3 text-base'>
                   <div className='flex flex-row gap-2'>
                     <img src={strongbox}/>
-                    <p className='text-[#FFF]'>Personal</p>
+                    <p className='text-[#FFF] font-nunito'>Personal</p>
                   </div>
                   <div>
                     <img src={Chevron}/>
@@ -51,7 +51,7 @@ function App() {
                 <div className='w-full flex flex-row justify-between pt-3 pb-3 text-base'>
                   <div className='flex flex-row gap-2 flex-1'>
                     <img src={shop}/>
-                    <p className='text-[#FFF]'>Sale hub</p>
+                    <p className='text-[#FFF] font-nunito'>Sale hub</p>
                   </div>
                   <div>
                     <img src={Chevron}/>
@@ -62,7 +62,7 @@ function App() {
                 <div className='w-full flex flex-row justify-between pt-3 pb-3 text-base'>
                   <div className='flex flex-row gap-2 flex-1'>
                     <img src={cube}/>
-                    <p className='text-[#FFF]'>Talent management</p>
+                    <p className='text-[#FFF] font-nunito'>Talent management</p>
                   </div>
                   <div>
                     <img src={Chevron}/>
@@ -73,7 +73,7 @@ function App() {
                 <div className='w-full flex flex-row justify-between pt-3 pb-3 text-base'>
                   <div className='flex flex-row gap-2 flex-1'>
                     <img src={card}/>
-                    <p className='text-[#FFF]'>Spend management</p>
+                    <p className='text-[#FFF] font-nunito'>Spend management</p>
                   </div>
                   <div>
                     <img src={Chevron}/>
@@ -84,7 +84,7 @@ function App() {
                 <div className='w-full flex flex-row justify-between pt-3 pb-3 text-base'>
                   <div className='flex flex-row gap-2 flex-1'>
                     <img src={cards}/>
-                    <p className='text-[#FFF]'>Cards</p>
+                    <p className='text-[#FFF] font-nunito'>Cards</p>
                   </div>
                 </div>
               </li>
@@ -95,7 +95,7 @@ function App() {
                 <div className='w-full flex flex-row justify-between pt-3 pb-3 text-base'>
                   <div className='flex flex-row gap-2 flex-1'>
                     <img src={medal}/>
-                    <p className='text-[#FFF]'>Leaderboard</p>
+                    <p className='text-[#FFF] font-nunito'>Leaderboard</p>
                   </div>
                 </div>
               </li>
@@ -103,7 +103,7 @@ function App() {
                 <div className='w-full flex flex-row justify-between pt-3 pb-3 text-base'>
                   <div className='flex flex-row gap-2 flex-1'>
                     <img src={security}/>
-                    <p className='text-[#FFF]'>Profile and Settings</p>
+                    <p className='text-[#FFF] font-nunito'>Profile and Settings</p>
                   </div>
                 </div>
               </li>
@@ -111,7 +111,7 @@ function App() {
                 <div className='w-full flex flex-row justify-between pt-3 pb-3 text-base'>
                   <div className='flex flex-row gap-2 flex-1'>
                     <img src={radar}/>
-                    <p className='text-[#FFF]'>Bank Performance</p>
+                    <p className='text-[#FFF] font-nunito'>Bank Performance</p>
                   </div>
                   <div>
                     <img src={Chevron}/>
@@ -149,8 +149,8 @@ function App() {
                 </div>
               </div>
             <div className='flex w-full justify-between items-center pl-4 pr-4 pb-2 mt-3 flex-row'>
-              <h1 className='text-white sm:text-[#242424] font-medium  sm:font-semibold'>Analytics Dashboard</h1>
-              <button className='bg-[#FFFFFF26] pr-6 pl-6 pt-2 pb-2 text-[#FFF] text-sm rounded-md sm:hidden'>Menu</button>
+              <h1 className='text-white sm:text-[#242424] font-medium font- sm:font-semibold font-nunito'>Analytics Dashboard</h1>
+              <button className='bg-[#FFFFFF26] pr-6 pl-6 pt-2 pb-2 text-[#FFF] text-sm rounded-md sm:hidden font-nunito'>Menu</button>
             </div>
           </div>
           
@@ -183,7 +183,7 @@ function App() {
           <div className=' h-[9.4rem] bg-[#032282] rounded-xl relative z-20 overflow-hidden'>
             <p className='pt-5 ml-7 text-sm text-[#CDCDCD]'>Wallet Balance</p>
             <div className='w-full pl-6 flex flex-row gap-3 justify-start items-center mx-auto'>
-              <h2 className='text-[#FFF] text-xl   font-extrabold ml-1'>₦50,000.00</h2>
+              <h2 className='text-[#FFF] text-xl ml-1 font-sora'>₦50,000.00</h2>
               <span><img src={eye}/></span>
             </div>
             <div className='flex flex-row mt-4 sm:justify-evenly justify-between pr-7 sm:pl-0 pl-7 sm:gap-2 gap-4 z-20'>
@@ -199,7 +199,7 @@ function App() {
           <div className=' h-[9.4rem] bg-[#FFF] pl-3 pr-3 rounded-xl'>
             <div className='w-full h-[6.5rem] bg-[#F6FAFF] mx-auto mt-3'>
               <p className='pt-6 ml-4 text-sm'>Total saving balance</p>
-              <h2 className='text-[#032282] text-xl font-extrabold mt-5 ml-4'>₦194,000</h2>
+              <h2 className='text-[#032282] text-xl font-extrabold mt-5 ml-4 font-sora'>₦194,000</h2>
 
             </div>
             <div className='flex flex-row mt-2'>
@@ -217,7 +217,7 @@ function App() {
           <div className=' h-[9.4rem] bg-[#FFF] pl-3 pr-3 rounded-xl'>
             <div className='w-full h-[6.5rem] bg-[#F6FAFF] mx-auto mt-3'>
               <p className='pt-6 ml-4 text-sm'>Total Customers</p>
-              <h2 className='text-[#032282] text-xl font-extrabold mt-5 ml-4'>₦919</h2>
+              <h2 className='text-[#032282] text-xl font-extrabold mt-5 ml-4 font-sora'>₦919</h2>
 
             </div>
             <div className='flex flex-row mt-2'>
@@ -235,7 +235,7 @@ function App() {
           <div className=' h-[9.4rem] bg-[#FFF] pl-3 pr-3 rounded-xl'>
             <div className='w-full h-[6.5rem] bg-[#F6FAFF] mx-auto mt-3'>
               <p className='pt-6 ml-4 text-sm'>Total POS</p>
-              <h2 className='text-[#032282] text-xl font-extrabold mt-5 ml-4'>0</h2>
+              <h2 className='text-[#032282] text-xl font-extrabold mt-5 ml-4 font-sora'>0</h2>
 
             </div>
             <div className='flex flex-row mt-2'>
@@ -267,21 +267,21 @@ function App() {
                 <div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Today</p>
-                    <h4 className='font-bold text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>₦500</h4>
                   </div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>This week</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
                 <div>
                 <div>
                     <p className='text-sm text-[#4F64A7]'>Yesterday</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Last week</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
               </div>
@@ -304,21 +304,21 @@ function App() {
                 <div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Today</p>
-                    <h4 className='font-bold text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>₦500</h4>
                   </div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>This week</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
                 <div>
                 <div>
                     <p className='text-sm text-[#4F64A7]'>Yesterday</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Last week</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
               </div>
@@ -341,21 +341,21 @@ function App() {
                 <div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Today</p>
-                    <h4 className='font-bold text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>₦500</h4>
                   </div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>This week</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
                 <div>
                 <div>
                     <p className='text-sm text-[#4F64A7]'>Yesterday</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Last week</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
               </div>
@@ -378,21 +378,21 @@ function App() {
                 <div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Today</p>
-                    <h4 className='font-bold text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>₦500</h4>
                   </div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>This week</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
                 <div>
                 <div>
                     <p className='text-sm text-[#4F64A7]'>Yesterday</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Last week</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
               </div>
@@ -415,13 +415,13 @@ function App() {
                 <div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Today</p>
-                    <h4 className='font-bold text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
                 <div>
                 <div>
                     <p className='text-sm text-[#4F64A7]'>Yesterday</p>
-                    <h4 className='font-bold  text-[#032282]'>₦500</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>₦500</h4>
                   </div>
                 </div>
               </div>
@@ -447,7 +447,7 @@ function App() {
                       <div className='w-2 h-2 rounded-full bg-[#18A201]'></div>
                       <p className='text-sm text-[#4F64A7]'>Successful</p>
                     </div>
-                    <h4 className='font-bold text-[#032282]'>442</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>442</h4>
                   </div>
                 </div>
                 <div>
@@ -456,7 +456,7 @@ function App() {
                       <div className='w-2 h-2 rounded-full bg-[#F00]'></div>
                       <p className='text-sm text-[#4F64A7]'>Failed</p>
                     </div>
-                    <h4 className='font-bold  text-[#032282]'>18</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>18</h4>
                   </div>
                 </div>
               </div>
@@ -479,13 +479,13 @@ function App() {
                 <div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Value</p>
-                    <h4 className='font-bold text-[#032282]'>₦20,400</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>₦20,400</h4>
                   </div>
                 </div>
                 <div>
                 <div>
                     <p className='text-sm text-[#4F64A7]'>Count</p>
-                    <h4 className='font-bold  text-[#032282]'>442</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>442</h4>
                   </div>
                 </div>
               </div>
@@ -508,13 +508,13 @@ function App() {
                 <div>
                   <div>
                     <p className='text-xs text-[#4F64A7]'>POS Commission</p>
-                    <h4 className='font-bold text-[#032282]'>₦87,000</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>₦87,000</h4>
                   </div>
                 </div>
                 <div>
                 <div>
                     <p className=' text-[#4F64A7] text-xs'>Lotto Commission</p>
-                    <h4 className='font-bold  text-[#032282] '>₦102,000</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora '>₦102,000</h4>
                   </div>
                 </div>
               </div>
@@ -537,13 +537,13 @@ function App() {
                 <div>
                   <div>
                     <p className='text-sm text-[#4F64A7]'>Value</p>
-                    <h4 className='font-bold text-[#032282]'>₦20,400</h4>
+                    <h4 className='font-bold text-[#032282] font-sora'>₦20,400</h4>
                   </div>
                 </div>
                 <div>
                 <div>
                     <p className='text-sm text-[#4F64A7]'>Count</p>
-                    <h4 className='font-bold  text-[#032282]'>442</h4>
+                    <h4 className='font-bold  text-[#032282] font-sora'>442</h4>
                   </div>
                 </div>
               </div>
@@ -559,7 +559,7 @@ function App() {
                       <div className='w-2 h-2 rounded-full bg-[#032282]'></div>
                       <p className='text-xs text-[#37474F]'>send Money</p>
                     </div>
-                    <h4 className='text-[#263238] text-base font-bold'>₦105,000,000</h4>
+                    <h4 className='text-[#263238] text-base font-bold font-sora'>₦105,000,000</h4>
                   </div>
                 </div>
               </div>
@@ -567,10 +567,10 @@ function App() {
                 <div>
                 <div>
                     <div className='flex flex-row gap-2 justify-start items-center'>
-                      <div className='w-2 h-2 rounded-full bg-[#49422f]'></div>
+                      <div className='w-2 h-2 rounded-full bg-[#F4BE38]'></div>
                       <p className='text-xs text-[#37474F]'>Cashout</p>
                     </div>
-                    <h4 className='text-[#263238] text-base font-bold'>₦12,000,000</h4>
+                    <h4 className='text-[#263238] text-base font-bold font-sora'>₦12,000,000</h4>
                     </div>
                 </div>
                 <div>
@@ -579,7 +579,7 @@ function App() {
                       <div className='w-2 h-2 rounded-full bg-[#EDE1FF]'></div>
                       <p className='text-xs text-[#37474F]'>Utility and bills</p>
                     </div>
-                    <h4 className='text-[#263238] text-base font-bold'>₦4,200,000</h4>
+                    <h4 className='text-[#263238] text-base font-bold font-sora'>₦4,200,000</h4>
                   </div>
                 </div>
               </div>
@@ -588,17 +588,17 @@ function App() {
               <img src={Group}/>
                 <div className='absolute top-16 left-5'>
                   <div className='w-9 h-9 shadow-md bg-[#FFF] rounded-full flex justify-center items-center'>
-                  <p className='text-xs'>76%</p>
+                  <p className='text-xs font-sora'>76%</p>
                 </div>
               </div>
               <div className='absolute top-20 left-40'>
                   <div className='w-9 h-9 shadow-md bg-[#FFF] rounded-full flex justify-center items-center'>
-                  <p className='text-xs'>12%</p>
+                  <p className='text-xs font-sora'>12%</p>
                 </div>
               </div>
               <div className='absolute left-20 top-[158px]'>
                   <div className='w-9 h-9 shadow-md bg-[#FFF] rounded-full flex justify-center items-center'>
-                  <p className='text-xs'>12%</p>
+                  <p className='text-xs font-sora'>12%</p>
                 </div>
               </div>
             </div>
